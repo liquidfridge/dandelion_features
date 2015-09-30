@@ -1276,7 +1276,7 @@ function dandelion_features_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'footer_message_msg';
   $strongarm->value = array(
-    'value' => '<p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+    'value' => '<p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 ',
     'format' => 'page',
   );

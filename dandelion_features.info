@@ -105,6 +105,7 @@ features[filter][] = comment
 features[filter][] = page
 features[filter][] = plain_text
 features[menu_custom][] = menu-footer-menu
+features[menu_custom][] = menu-front-menu
 features[menu_links][] = menu-footer-menu_code-on-github:https://github.com/liquidfridge
 features[metatag][] = global
 features[metatag][] = node

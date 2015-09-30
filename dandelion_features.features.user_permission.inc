@@ -283,14 +283,18 @@ function dandelion_features_user_default_permissions() {
   // Exported permission: 'administer menu'.
   $permissions['administer menu'] = array(
     'name' => 'administer menu',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'menu',
   );
 
   // Exported permission: 'administer menu attributes'.
   $permissions['administer menu attributes'] = array(
     'name' => 'administer menu attributes',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'menu_attributes',
   );
 

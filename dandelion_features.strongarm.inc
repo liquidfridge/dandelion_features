@@ -2020,7 +2020,7 @@ function dandelion_features_strongarm() {
     'dandelion_page_body' => array(
       'enabled' => 1,
       'weight' => '1',
-      'fallback' => 'thumbnail',
+      'fallback' => 's_800',
       'lazyload' => 0,
       'lazyload_aspect_ratio' => 0,
     ),

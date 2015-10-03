@@ -621,6 +621,18 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'content_access_admin_help_page';
+  $strongarm->value = array(
+    'view_own' => array(),
+    'view' => array(
+      0 => 3,
+    ),
+  );
+  $export['content_access_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'dandelion_front_page_body';
   $strongarm->value = array(
     'value' => '<p>Welcome to a new concept we are growing in the open: a discussion club for concerned citizens.</p>

@@ -353,6 +353,7 @@ features[variable][] = comment_subject_field_admin_help_page
 features[variable][] = comment_subject_field_book
 features[variable][] = comment_subject_field_page
 features[variable][] = configurable_timezones
+features[variable][] = content_access_admin_help_page
 features[variable][] = dandelion_front_page_body
 features[variable][] = dandelion_front_page_footer
 features[variable][] = dandelion_front_page_title

@@ -539,6 +539,7 @@ features[variable][] = path_alias_whitelist
 features[variable][] = pathauto_blog_pattern
 features[variable][] = pathauto_file_pattern
 features[variable][] = pathauto_forum_pattern
+features[variable][] = pathauto_node_admin_help_page_pattern
 features[variable][] = pathauto_node_book_pattern
 features[variable][] = pathauto_node_page_pattern
 features[variable][] = pathauto_node_pattern

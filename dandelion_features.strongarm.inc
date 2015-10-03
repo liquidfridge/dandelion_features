@@ -2050,6 +2050,13 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_admin_help_page_pattern';
+  $strongarm->value = 'admin/[node:title]';
+  $export['pathauto_node_admin_help_page_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_book_pattern';
   $strongarm->value = '[node:book:parents:join-path]/[node:title]';
   $export['pathauto_node_book_pattern'] = $strongarm;

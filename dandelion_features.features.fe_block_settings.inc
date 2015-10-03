@@ -27,6 +27,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -11,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -59,6 +65,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -10,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -89,6 +101,12 @@ function dandelion_features_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
         'weight' => 0,
       ),
       'omega' => array(
@@ -123,6 +141,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -11,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -154,6 +178,12 @@ function dandelion_features_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adminimal',
         'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -12,
       ),
       'omega' => array(
         'region' => '',
@@ -187,6 +217,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -6,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -218,6 +254,12 @@ function dandelion_features_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adminimal',
         'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -12,
       ),
       'omega' => array(
         'region' => '',
@@ -251,6 +293,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -5,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -282,6 +330,12 @@ function dandelion_features_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adminimal',
         'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -9,
       ),
       'omega' => array(
         'region' => '',
@@ -315,6 +369,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -7,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -347,6 +407,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -12,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -377,6 +443,12 @@ function dandelion_features_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
         'weight' => 0,
       ),
       'omega' => array(
@@ -411,6 +483,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => 1,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -442,6 +520,12 @@ function dandelion_features_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adminimal',
         'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => 3,
       ),
       'omega' => array(
         'region' => '',
@@ -475,6 +559,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 5,
       ),
+      'hyperion' => array(
+        'region' => 'help',
+        'status' => 1,
+        'theme' => 'hyperion',
+        'weight' => 0,
+      ),
       'omega' => array(
         'region' => 'help',
         'status' => 1,
@@ -505,6 +595,12 @@ function dandelion_features_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'adminimal',
+        'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'hyperion',
         'weight' => 0,
       ),
       'omega' => array(
@@ -539,6 +635,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -4,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -570,6 +672,12 @@ function dandelion_features_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adminimal',
         'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -3,
       ),
       'omega' => array(
         'region' => 'branding',
@@ -603,6 +711,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -2,
+      ),
       'omega' => array(
         'region' => 'branding',
         'status' => 1,
@@ -634,6 +748,12 @@ function dandelion_features_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adminimal',
         'weight' => 10,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => -1,
       ),
       'omega' => array(
         'region' => '',
@@ -667,6 +787,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => 5,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -698,6 +824,12 @@ function dandelion_features_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adminimal',
         'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => 4,
       ),
       'omega' => array(
         'region' => 'branding',
@@ -731,6 +863,12 @@ function dandelion_features_default_fe_block_settings() {
         'theme' => 'adminimal',
         'weight' => 0,
       ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => 6,
+      ),
       'omega' => array(
         'region' => '',
         'status' => 0,
@@ -762,6 +900,12 @@ function dandelion_features_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'adminimal',
         'weight' => 0,
+      ),
+      'hyperion' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'hyperion',
+        'weight' => 7,
       ),
       'omega' => array(
         'region' => '',

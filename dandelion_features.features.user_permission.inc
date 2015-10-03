@@ -494,6 +494,15 @@ function dandelion_features_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'create admin_help_page content'.
+  $permissions['create admin_help_page content'] = array(
+    'name' => 'create admin_help_page content',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'create book content'.
   $permissions['create book content'] = array(
     'name' => 'create book content',
@@ -549,6 +558,15 @@ function dandelion_features_user_default_permissions() {
     'name' => 'customize ckeditor',
     'roles' => array(),
     'module' => 'ckeditor',
+  );
+
+  // Exported permission: 'delete any admin_help_page content'.
+  $permissions['delete any admin_help_page content'] = array(
+    'name' => 'delete any admin_help_page content',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node',
   );
 
   // Exported permission: 'delete any audio files'.
@@ -609,6 +627,15 @@ function dandelion_features_user_default_permissions() {
       'working group' => 'working group',
     ),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'delete own admin_help_page content'.
+  $permissions['delete own admin_help_page content'] = array(
+    'name' => 'delete own admin_help_page content',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node',
   );
 
   // Exported permission: 'delete own audio files'.
@@ -768,6 +795,15 @@ function dandelion_features_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'edit any admin_help_page content'.
+  $permissions['edit any admin_help_page content'] = array(
+    'name' => 'edit any admin_help_page content',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any audio files'.
   $permissions['edit any audio files'] = array(
     'name' => 'edit any audio files',
@@ -833,6 +869,15 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit meta tags',
     'roles' => array(),
     'module' => 'metatag',
+  );
+
+  // Exported permission: 'edit own admin_help_page content'.
+  $permissions['edit own admin_help_page content'] = array(
+    'name' => 'edit own admin_help_page content',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node',
   );
 
   // Exported permission: 'edit own audio files'.
@@ -919,6 +964,20 @@ function dandelion_features_user_default_permissions() {
     'name' => 'generate features',
     'roles' => array(),
     'module' => 'features',
+  );
+
+  // Exported permission: 'grant content access'.
+  $permissions['grant content access'] = array(
+    'name' => 'grant content access',
+    'roles' => array(),
+    'module' => 'content_access',
+  );
+
+  // Exported permission: 'grant own content access'.
+  $permissions['grant own content access'] = array(
+    'name' => 'grant own content access',
+    'roles' => array(),
+    'module' => 'content_access',
   );
 
   // Exported permission: 'manage features'.

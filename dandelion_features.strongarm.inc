@@ -14,7 +14,7 @@ function dandelion_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'admin_theme';
-  $strongarm->value = 'adminimal';
+  $strongarm->value = 'hyperion';
   $export['admin_theme'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -467,6 +467,20 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_admin_help_page';
+  $strongarm->value = '0';
+  $export['comment_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_anonymous_admin_help_page';
+  $strongarm->value = 0;
+  $export['comment_anonymous_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_anonymous_book';
   $strongarm->value = 0;
   $export['comment_anonymous_book'] = $strongarm;
@@ -488,6 +502,13 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_default_mode_admin_help_page';
+  $strongarm->value = 1;
+  $export['comment_default_mode_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_default_mode_book';
   $strongarm->value = 1;
   $export['comment_default_mode_book'] = $strongarm;
@@ -502,6 +523,13 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_default_per_page_admin_help_page';
+  $strongarm->value = '50';
+  $export['comment_default_per_page_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_default_per_page_book';
   $strongarm->value = '50';
   $export['comment_default_per_page_book'] = $strongarm;
@@ -512,6 +540,13 @@ function dandelion_features_strongarm() {
   $strongarm->name = 'comment_default_per_page_page';
   $strongarm->value = '50';
   $export['comment_default_per_page_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_form_location_admin_help_page';
+  $strongarm->value = 1;
+  $export['comment_form_location_admin_help_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -537,6 +572,13 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'comment_preview_admin_help_page';
+  $strongarm->value = '1';
+  $export['comment_preview_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_preview_book';
   $strongarm->value = '0';
   $export['comment_preview_book'] = $strongarm;
@@ -547,6 +589,13 @@ function dandelion_features_strongarm() {
   $strongarm->name = 'comment_preview_page';
   $strongarm->value = '0';
   $export['comment_preview_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_subject_field_admin_help_page';
+  $strongarm->value = 1;
+  $export['comment_subject_field_admin_help_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -1390,6 +1439,13 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'language_content_type_admin_help_page';
+  $strongarm->value = '0';
+  $export['language_content_type_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'language_content_type_book';
   $strongarm->value = '0';
   $export['language_content_type_book'] = $strongarm;
@@ -1759,6 +1815,15 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'menu_options_admin_help_page';
+  $strongarm->value = array(
+    0 => 'management',
+  );
+  $export['menu_options_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_book';
   $strongarm->value = array();
   $export['menu_options_book'] = $strongarm;
@@ -1772,6 +1837,13 @@ function dandelion_features_strongarm() {
     1 => 'main-menu',
   );
   $export['menu_options_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'menu_parent_admin_help_page';
+  $strongarm->value = 'management:0';
+  $export['menu_parent_admin_help_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -1867,6 +1939,15 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_admin_help_page';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_options_book';
   $strongarm->value = array(
     0 => 'status',
@@ -1885,6 +1966,13 @@ function dandelion_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'node_preview_admin_help_page';
+  $strongarm->value = '0';
+  $export['node_preview_admin_help_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_preview_book';
   $strongarm->value = '0';
   $export['node_preview_book'] = $strongarm;
@@ -1895,6 +1983,13 @@ function dandelion_features_strongarm() {
   $strongarm->name = 'node_preview_page';
   $strongarm->value = '0';
   $export['node_preview_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_submitted_admin_help_page';
+  $strongarm->value = 1;
+  $export['node_submitted_admin_help_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -2135,6 +2230,109 @@ function dandelion_features_strongarm() {
     'jquery_update_jquery_version' => '',
   );
   $export['theme_adminimal_settings'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_context_blacklist_hyperion';
+  $strongarm->value = '';
+  $export['theme_context_blacklist_hyperion'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_context_blacklist_phoebe';
+  $strongarm->value = 'admin
+admin/*
+admin/reports/status/php
+admin/structure/block/demo/*
+batch
+file/*/delete
+file/*/edit
+file/*/usage
+file/add
+file/add/*
+media/*/edit/*
+media/*/format-form
+media/browser
+media/browser/*
+node/*/access
+node/*/delete
+node/*/edit
+node/*/outline
+node/*/outline/remove
+node/*/revisions
+node/*/revisions/*/delete
+node/*/revisions/*/revert
+node/*/revisions/view/*/*
+node/add
+node/add/*
+user/*/cancel
+user/*/edit
+user/*/edit/*';
+  $export['theme_context_blacklist_phoebe'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_context_enable';
+  $strongarm->value = 1;
+  $export['theme_context_enable'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_context_enable_hyperion';
+  $strongarm->value = 1;
+  $export['theme_context_enable_hyperion'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_context_enable_phoebe';
+  $strongarm->value = 1;
+  $export['theme_context_enable_phoebe'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_context_whitelist_hyperion';
+  $strongarm->value = 'admin
+admin/*
+admin/reports/status/php
+admin/structure/block/demo/*
+batch
+file/*/delete
+file/*/edit
+file/*/usage
+file/add
+file/add/*
+media/*/edit/*
+media/*/format-form
+media/browser
+media/browser/*
+node/*/access
+node/*/delete
+node/*/edit
+node/*/outline
+node/*/outline/remove
+node/*/revisions
+node/*/revisions/*/delete
+node/*/revisions/*/revert
+node/*/revisions/view/*/*
+node/add
+node/add/*
+user/*/cancel
+user/*/edit
+user/*/edit/*';
+  $export['theme_context_whitelist_hyperion'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_context_whitelist_phoebe';
+  $strongarm->value = '';
+  $export['theme_context_whitelist_phoebe'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

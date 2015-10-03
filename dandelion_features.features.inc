@@ -30,6 +30,14 @@ function dandelion_features_ctools_plugin_api($module = NULL, $api = NULL) {
  */
 function dandelion_features_node_info() {
   $items = array(
+    'admin_help_page' => array(
+      'name' => t('Admin help page'),
+      'base' => 'node_content',
+      'description' => t('A help page in the administration area.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
     'book' => array(
       'name' => t('Book page'),
       'base' => 'node_content',

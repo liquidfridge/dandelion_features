@@ -15,7 +15,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'access administration menu',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'admin_menu',
   );
@@ -25,7 +24,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'system',
   );
@@ -49,6 +47,8 @@ function dandelion_features_user_default_permissions() {
     'name' => 'access comments',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
       'working group' => 'working group',
     ),
     'module' => 'comment',
@@ -70,7 +70,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'access content overview',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -80,7 +79,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'access media browser',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'media',
   );
@@ -132,7 +130,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'add content to books',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'book',
   );
@@ -163,7 +160,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'administer book outlines',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'book',
   );
@@ -233,7 +229,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'administer files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -508,7 +503,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'create book content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -518,7 +512,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'create files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -528,7 +521,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'create new books',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'book',
   );
@@ -538,7 +530,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'create page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -548,7 +539,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'create url aliases',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'path',
   );
@@ -574,7 +564,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete any audio files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -584,7 +573,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete any book content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -594,7 +582,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete any document files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -604,7 +591,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete any image files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -614,7 +600,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete any page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -624,7 +609,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete any video files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -643,7 +627,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete own audio files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -653,7 +636,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete own book content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -663,7 +645,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete own document files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -673,7 +654,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete own image files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -683,7 +663,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete own page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -693,7 +672,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete own video files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -703,7 +681,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'delete revisions',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -720,7 +697,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'download any audio files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -730,7 +706,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'download any document files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -740,7 +715,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'download any image files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -750,7 +724,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'download any video files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -760,7 +733,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'download own audio files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -770,7 +742,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'download own document files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -780,7 +751,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'download own image files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -790,7 +760,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'download own video files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -809,7 +778,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit any audio files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -819,7 +787,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit any book content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -829,7 +796,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit any document files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -839,7 +805,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit any image files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -849,7 +814,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit any page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -859,7 +823,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit any video files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -885,7 +848,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit own audio files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -895,7 +857,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit own book content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -915,7 +876,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit own document files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -925,7 +885,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit own image files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -935,7 +894,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit own page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -945,7 +903,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'edit own video files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -1016,7 +973,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'revert revisions',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -1113,7 +1069,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'use media wysiwyg',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'media_wysiwyg',
   );
@@ -1167,7 +1122,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'use text format page',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'filter',
   );
@@ -1189,7 +1143,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'view own files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -1199,7 +1152,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'view own private files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -1209,7 +1161,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'view own unpublished content',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -1226,7 +1177,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'view private files',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'file_entity',
   );
@@ -1236,7 +1186,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'view revisions',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'node',
   );
@@ -1246,7 +1195,6 @@ function dandelion_features_user_default_permissions() {
     'name' => 'view the administration theme',
     'roles' => array(
       'administrator' => 'administrator',
-      'working group' => 'working group',
     ),
     'module' => 'system',
   );

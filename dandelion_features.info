@@ -616,7 +616,6 @@ features[variable][] = xmlsitemap_minimum_lifetime
 features[variable][] = xmlsitemap_output_elements
 features[variable][] = xmlsitemap_path
 features[variable][] = xmlsitemap_prefetch_aliases
-features[variable][] = xmlsitemap_rebuild_needed
 features[variable][] = xmlsitemap_settings_node_book
 features[variable][] = xmlsitemap_settings_node_page
 features[variable][] = xmlsitemap_xsl

@@ -62,6 +62,7 @@ notes/*',
       'notes_book_tree' => NULL,
       'notes_book_toc' => NULL,
       'notes_book_comments' => NULL,
+      'notes_book_contribute' => NULL,
     ),
   );
   $display->cache = array();
